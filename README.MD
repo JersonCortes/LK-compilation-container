@@ -12,11 +12,11 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
         - [Arch-based (e.g., Arch Linux, Manjaro)](#arch-based-arch-linux-manjaro)
   - [Usage](#usage)
 
-# Installation
+## Installation
 
   First you must select your containerization tool. This example will make use of Podman which is OCI compliant but more examples will be added.
-##Linux
-### Debian-based (e.g., Ubuntu)
+### Linux
+#### Debian-based (e.g., Ubuntu)
   1. Open a terminal.
   2. Install dependencies:
     ```bash
@@ -26,7 +26,7 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
   ```bash
     git clone https://github.com/JersonCortes/LK-compilation-container.git
   ```   ```
-### RedHat-based (e.g., Fedora, CentOS)
+#### RedHat-based (e.g., Fedora, CentOS)
   1. Open a terminal.
   2. Install dependencies:
     ```bash
@@ -36,7 +36,7 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
   ```bash
     git clone https://github.com/JersonCortes/LK-compilation-container.git
   ```
-### Arch-based (e.g., Arch Linux, Manjaro)
+#### Arch-based (e.g., Arch Linux, Manjaro)
   1. Open the terminal.
   2. Install dependencies:
   ```bash
