@@ -7,9 +7,9 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
     - [Windows](#windows)
     - [macOS](#macos)
     - [Linux](#linux)
-        - [Debian-based (e.g., Ubuntu)](#debian-based-ubuntu)
-        - [RedHat-based (e.g., Fedora, CentOS)](#redhat-based-fedora-centos)
-        - [Arch-based (e.g., Arch Linux, Manjaro)](#arch-based-arch-linux-manjaro)
+        - [Debian-based (e.g., Ubuntu)](#debian-based-eg-ubuntu)
+        - [RedHat-based (e.g., Fedora, CentOS)](#redhat-based-e-g-fedora-centos)
+        - [Arch-based (e.g., Arch Linux, Manjaro)](#arch-based-eg-arch-linux-manjaro)
   - [Usage](#usage)
 
 ## Installation
@@ -25,7 +25,7 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
   3. Clone this repository.
   ```bash
     git clone https://github.com/JersonCortes/LK-compilation-container.git
-  ```   ```
+  ``` 
 #### RedHat-based (e.g., Fedora, CentOS)
   1. Open a terminal.
   2. Install dependencies:
