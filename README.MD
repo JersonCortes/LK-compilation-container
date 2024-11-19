@@ -8,7 +8,7 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
     - [macOS](#macos)
     - [Linux](#linux)
         - [Debian-based (e.g., Ubuntu)](#debian-based-eg-ubuntu)
-        - [RedHat-based (e.g., Fedora, CentOS)](#redhat-based-e-g-fedora-centos)
+        - [RedHat-based (e.g., Fedora, CentOS)](#redhat-based-eg-fedora-centos)
         - [Arch-based (e.g., Arch Linux, Manjaro)](#arch-based-eg-arch-linux-manjaro)
   - [Usage](#usage)
 
@@ -22,15 +22,16 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
     ```bash
     sudo apt-get update
     sudo apt-get -y install podman
+    ```
   3. Clone this repository.
   ```bash
     git clone https://github.com/JersonCortes/LK-compilation-container.git
-  ``` 
+  ```
 #### RedHat-based (e.g., Fedora, CentOS)
   1. Open a terminal.
   2. Install dependencies:
     ```bash
-    sudo dnf -y install podman
+      sudo dnf -y install podman
     ```
   3. Clone this repository.
   ```bash
