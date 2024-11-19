@@ -19,10 +19,10 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
 #### Debian-based (e.g., Ubuntu)
   1. Open a terminal.
   2. Install dependencies:
-    ```bash
+  ```bash
     sudo apt-get update
     sudo apt-get -y install podman
-    ```
+  ```
   3. Clone this repository.
   ```bash
     git clone https://github.com/JersonCortes/LK-compilation-container.git
@@ -30,9 +30,9 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
 #### RedHat-based (e.g., Fedora, CentOS)
   1. Open a terminal.
   2. Install dependencies:
-    ```bash
-      sudo dnf -y install podman
-    ```
+  ```bash
+    sudo dnf -y install podman
+  ```
   3. Clone this repository.
   ```bash
     git clone https://github.com/JersonCortes/LK-compilation-container.git
