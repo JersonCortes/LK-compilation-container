@@ -10,7 +10,6 @@ An easy way to compile the Linux Kernel in a Ubuntu container. The Dockerfile co
         - [Debian-based (e.g., Ubuntu)](#debian-based-eg-ubuntu)
         - [RedHat-based (e.g., Fedora, CentOS)](#redhat-based-eg-fedora-centos)
         - [Arch-based (e.g., Arch Linux, Manjaro)](#arch-based-eg-arch-linux-manjaro)
-  - [Usage](#usage)
 
 ## Installation
 
@@ -56,10 +55,13 @@ Once you've installed the project, you can start using it. The primary functiona
   ```
   2. Crate the container:
   ```bash
-    podman create -it --name [CONTAINER NAME] -v [KERNEL PATH]: [PATH INSIDE CONTAINER] /bin/bash
+    podman create -it --name [CONTAINER NAME] -v [KERNEL PATH]:/workspace /bin/bash
   ```
   3. Start the container:
   ```bash
     podman start -a [CONTAINER NAME]
   ```
   4. Start compiling.
+
+
+For more information on the Linux kernel compilation minimal requirements check: https://www.kernel.org/doc/html/latest/process/changes.html
